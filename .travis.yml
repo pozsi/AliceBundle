@@ -39,6 +39,17 @@ matrix:
         - COVERAGE="true"
         - PHPUNIT_FLAGS="--stop-on-failure --verbose --coverage-text --coverage-clover=coverage.xml"
         - LINT="1"
+    - php: '7.4'
+      env:
+        - COMPOSER_FLAGS="--prefer-lowest"
+        - SYMFONY_DEPRECATIONS_HELPER="max[self]=0"
+    - php: '7.4'
+      env: SYMFONY_REQUIRE="~3.4.0"
+    - php: '7.4'
+      env:
+        - COVERAGE="true"
+        - PHPUNIT_FLAGS="--stop-on-failure --verbose --coverage-text --coverage-clover=coverage.xml"
+        - LINT="1"
   allow_failures:
     - php: nightly
 
