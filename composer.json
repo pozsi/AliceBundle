@@ -6,7 +6,7 @@
     "license": "MIT",
     "repositories": [
         {"type": "vcs", "url": "https://github.com/alexislefebvre/AliceDataFixtures"}
-    ]
+    ],
     "authors": [
         {
             "name": "Baldur Rensch",
