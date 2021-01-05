@@ -37,7 +37,7 @@
         "php": "^7.3 || ^8.0",
         "doctrine/doctrine-bundle": "^1.8 || ^2.0",
         "doctrine/data-fixtures": "^1.2",
-        "doctrine/orm": "dev-master",
+        "doctrine/orm": "dev-2.9.x-dev",
         "doctrine/persistence": "2.2.0",
         "psr/log": "^1.0",
         "symfony/finder": "^3.4 || ^4.0 || ^5.0",
